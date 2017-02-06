@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  News
+//
+//  Created by schubert on 15/10/21.
+//  Copyright © 2015年 schubertq. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+/*** 颜色 ***/
+#define STColorA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
+#define STColor(r, g, b) STColorA((r), (g), (b), 255)
+#define STRandomColor STColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
+
+#endif /* PrefixHeader_pch */
